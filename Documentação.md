@@ -98,7 +98,7 @@ Configura-se duas regiões para ter uma maior disponibilidade e recuperação de
 região southamerica-east1 e na região southamerica-west1 recebendo carga de trabalho do 
 Global Load Balancer.
 A região southamerica-east1 localizada em São Paulo (Brasil) foi escolhida como região principal 
-visando a maior proximidade possível para uma menor latência. Apesar do preço elevado, devese levar em conta regulamentações de privacidade de dados (LGPD) e a menor latência possível 
+visando a maior proximidade possível para uma menor latência. Apesar do preço elevado, deve-se levar em conta regulamentações de privacidade de dados (LGPD) e a menor latência possível 
 nessa região. Também visando manter a conformidade regulatória, essa também será a região 
 escolhida para armazenar backups.
 A região southamerica-west1 localizada em Santiago (Chile) foi escolhida como região para alta 
