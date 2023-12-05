@@ -19,5 +19,5 @@ Nesta documentação possuem detalhes sobre:
 
 💻 IaC (Infrastructure as Code)
 
-> [!IMPORTANTE]
+> [!IMPORTANT]
 > A empresa EHR Healthcare no caso é uma empresa fictícia usada para fins de treinamento.
