@@ -104,6 +104,7 @@ A região southamerica-west1 localizada em Santiago (Chile) foi escolhida como r
 disponibilidade. Utilizando essas duas regiões, a latência do sistema será a menor possível.
 
 ![mapa](https://github.com/SAHelena/Projeto-GCP/assets/91288986/2f9dea3a-d23a-4589-9124-81a2d64ae7c8)
+
 Imagem retirada do site oficial da google: https://cloud.google.com/about/locations?hl=ptbr#lightbox-regions-map
 Legenda: 
 🟩 Região principal
@@ -161,13 +162,16 @@ GKE.
 plano de backup e recuperação.
 * Haverá integrações com outros serviços GCP que são componentes do sistema 
 construído:
+
   -> Integração com GKE: Visando simplificar o processo de atualização de software, os 
 clusters GKE serão configurados para que quando novas versões das aplicações 
 forem implantadas, durante a implantação os clusters sejam capazes de puxar 
 imagens de contêineres diretamente do Artifact Registry.
+
   -> Integração com Looker: Através do Looker será possível realizar uma integração por 
 intermédio de APIs com o Artifact Registry para que possam ser analisados os dados 
 sobre versões, distribuições e mudanças nos artefatos.
+
   -> Integração com Cloud Pub/Sub: Qualquer evento sobre alteração nos artefatos será 
 notificado.
 
@@ -251,8 +255,11 @@ são divididos em menores partes.
 * Será utilizado o BigQuery ML integrado ao Looker para que sejam treinados os modelos 
 de machine learning dos dados que estão armazenados no BigQuery de forma direta.
 * Com o uso de machine learning, é possível fazer análises preditivas:
+
   -> Auxílio nas detecções precoces de doenças baseadas em exames dos pacientes.
+
   -> Previsão de risco de doenças pelo histórico dos pacientes.
+
   -> Insights valiosos para uma reposta eficiente a crises epidemiológicas através de 
 padrões durante pandemias.
 
@@ -267,15 +274,21 @@ sistema.
 * Ideal para aplicações de saúde onde os registros médicos precisam estar atualizados, a 
 sincronização desses dados será feita em tempo real.
 * O Firestore terá integrações com outros serviços que fazem parte do sistema:
+
   -> Integração com Cloud Storage: Recuperação de documentos e imagens diretamente 
 do Firestore.
+
   -> Integração com Cloud Logging: Opção de depuração, auditoria e rastreio de 
 atividades através da análise de registros do Firestore.
+
   -> Integração com Cloud Monitoring: Monitoramento de desempenho do Firestore.
+
   -> Integração com Cloud Pub/Sub: Alterações no Firestore ativarão eventos no Cloud 
 Pub/Sub.
+
   -> Integração com Cloud IAM: Controle de quem modifica, acessa e visualiza dados do 
 Firestore.
+
 * Ideal para armazenar dados complexos, o Firestore tem suporte para o armazenamento 
 de registros médicos incluindo imagens e textos.
 * Devido a sua estrutura flexível para dados complexos, O Firestore poderá armazenar 
@@ -349,6 +362,7 @@ dentro do Cloud Storage, bem como definir e gerenciar políticas de acesso.
 
 # Os seis pilares do GCP
 ![pilares](https://github.com/SAHelena/Projeto-GCP/assets/91288986/1ddaa873-b163-439c-bdbf-c8cca95cb7fe)
+
 Imagem retirada do site oficial da google: https://cloud.google.com/architecture/framework?hl=pt-br
 
 O sistema da EHR Healthcare foi feito se baseando nos pilares GCP:
