@@ -107,8 +107,11 @@ disponibilidade. Utilizando essas duas regiões, a latência do sistema será a 
 ![mapa](https://github.com/SAHelena/Projeto-GCP/assets/91288986/2f9dea3a-d23a-4589-9124-81a2d64ae7c8)
 
 Imagem retirada do site oficial da google: https://cloud.google.com/about/locations?hl=ptbr#lightbox-regions-map
+
 Legenda: 
+
 🟩 Região principal
+
 🟧 Região secundária
 
 * A região southamerica-east1 será configurada como região principal para o tráfego 
