@@ -10,6 +10,7 @@ EHR Healthcare para nuvem híbrida
 sistemas legados, que se encontram nos servidores das instalações On-premise, onde 
 uma equipe cuida do suporte dessa aplicação. Os sistemas legados serão mantidos no 
 ambiente On-premise, enquanto os bancos de dados serão migrados para o GCP.
+
 ✔️ O backup dos sistemas legados será feito através de um agente Cloud backup and DR 
 que estará instalado em tais sistemas, fazendo conexão através da VPN com o Cloud 
 Storage, para realizar o armazenamento do backup.
@@ -366,21 +367,27 @@ dentro do Cloud Storage, bem como definir e gerenciar políticas de acesso.
 Imagem retirada do site oficial da google: https://cloud.google.com/architecture/framework?hl=pt-br
 
 O sistema da EHR Healthcare foi feito se baseando nos pilares GCP:
+
 ✔ Design do sistema: A arquitetura do sistema foi desenhada de forma clara e detalhada, 
 destacando cada parte do sistema com legendas para um melhor entendimento.
+
 ✔ Excelência Operacional: Devido a muitos serviços GCP suportarem integrações com 
 outros serviços, o sistema foi projetado para que os serviços trabalhem juntos e com 
 eficiência máxima.
+
 ✔ Segurança, privacidade e conformidade: O sistema foi projetado para ter o maior nível 
 de segurança possível tanto na parte de acesso dos usuários quanto em relação a 
 componentes de dentro do sistema, bem como questões sobre privacidade e 
 conformidade foram frisadas e estarão em dentro da conformidade regulatória.
+
 ✔ Confiabilidade: O sistema será altamente disponível e resiliente, isso se deve 
 principalmente à parte sobre as regiões escolhidas e escolha de bancos de dados 
 utilizados.
+
 ✔ Otimização de custos: Todos os serviços do sistema serão aproveitados da melhor forma 
 possível para que a empresa EHR Healthcare seja substancialmente beneficiada com o 
 investimento feito na GCP.
+
 ✔ Otimização de desempenho: Os recursos do sistema foram feitos para que sejam 
 escaláveis e configurados para que haja equilíbrio para alcançar o desempenho ideal, 
 sem que haja gastos extras sem necessidade. 
