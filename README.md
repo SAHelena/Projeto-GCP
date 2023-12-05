@@ -15,9 +15,11 @@ Nesta documentação possuem detalhes sobre:
 
 📖 Conformidade regulatória
 
-[!IMPORTANTE]
-A empresa EHR Healthcare no caso é uma empresa fictícia usada para fins de treinamento.
-
 🔎 Análise de Dados
 
 💻 IaC (Infrastructure as Code)
+
+> [!IMPORTANT]
+> Essential information required for user success.
+
+A empresa EHR Healthcare no caso é uma empresa fictícia usada para fins de treinamento.
