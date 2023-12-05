@@ -19,7 +19,5 @@ Nesta documentação possuem detalhes sobre:
 
 💻 IaC (Infrastructure as Code)
 
-> [!IMPORTANT]
-> Essential information required for user success.
-
-A empresa EHR Healthcare no caso é uma empresa fictícia usada para fins de treinamento.
+> [!IMPORTANTE]
+> A empresa EHR Healthcare no caso é uma empresa fictícia usada para fins de treinamento.
